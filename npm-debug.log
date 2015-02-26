@@ -1,0 +1,181 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'request' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose cache add [ 'request', null ]
+5 verbose cache add name=undefined spec="request" args=["request",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'request',
+6 verbose parsed url   path: 'request',
+6 verbose parsed url   href: 'request' }
+7 silly lockFile 088e29b0-request request
+8 verbose lock request /Users/c0de/.npm/088e29b0-request.lock
+9 silly lockFile 088e29b0-request request
+10 silly lockFile 088e29b0-request request
+11 verbose addNamed [ 'request', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 9d461bcf-request request@
+14 verbose lock request@ /Users/c0de/.npm/9d461bcf-request.lock
+15 silly addNameRange { name: 'request', range: '*', hasData: false }
+16 verbose request where is /request
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 3e479c2c1c3f2b93
+19 verbose url raw /request
+20 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+21 verbose url resolved https://registry.npmjs.org/request
+22 verbose request where is https://registry.npmjs.org/request
+23 info trying registry request attempt 1 at 10:19:59
+24 verbose etag "20WM9RT0GAU3J3HI9S8W0KMHZ"
+25 http GET https://registry.npmjs.org/request
+26 http 200 https://registry.npmjs.org/request
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Wed, 25 Feb 2015 18:20:00 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"5OF76SV668098LVR5K1TN5VGG"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '140230',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '1',
+27 silly registry.get     'x-served-by': 'cache-sjc3123-SJC',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1424888400.007187,VS0,VE0',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly addNameRange number 2 { name: 'request', range: '*', hasData: true }
+29 silly addNameRange versions [ 'request',
+29 silly addNameRange   [ '0.10.0',
+29 silly addNameRange     '0.8.3',
+29 silly addNameRange     '0.9.0',
+29 silly addNameRange     '0.9.1',
+29 silly addNameRange     '0.9.5',
+29 silly addNameRange     '1.0.0',
+29 silly addNameRange     '1.1.0',
+29 silly addNameRange     '1.1.1',
+29 silly addNameRange     '1.2.0',
+29 silly addNameRange     '1.9.0',
+29 silly addNameRange     '1.9.1',
+29 silly addNameRange     '1.9.2',
+29 silly addNameRange     '1.9.3',
+29 silly addNameRange     '1.9.5',
+29 silly addNameRange     '1.9.7',
+29 silly addNameRange     '1.9.8',
+29 silly addNameRange     '1.9.9',
+29 silly addNameRange     '2.0.0',
+29 silly addNameRange     '2.0.1',
+29 silly addNameRange     '2.0.2',
+29 silly addNameRange     '2.0.3',
+29 silly addNameRange     '2.0.4',
+29 silly addNameRange     '2.0.5',
+29 silly addNameRange     '2.1.0',
+29 silly addNameRange     '2.1.1',
+29 silly addNameRange     '2.2.0',
+29 silly addNameRange     '2.2.5',
+29 silly addNameRange     '2.2.6',
+29 silly addNameRange     '2.2.9',
+29 silly addNameRange     '2.9.0',
+29 silly addNameRange     '2.9.1',
+29 silly addNameRange     '2.9.2',
+29 silly addNameRange     '2.9.3',
+29 silly addNameRange     '2.9.100',
+29 silly addNameRange     '2.9.150',
+29 silly addNameRange     '2.9.151',
+29 silly addNameRange     '2.9.152',
+29 silly addNameRange     '2.9.153',
+29 silly addNameRange     '2.9.200',
+29 silly addNameRange     '2.9.201',
+29 silly addNameRange     '2.9.202',
+29 silly addNameRange     '2.9.203',
+29 silly addNameRange     '2.10.0',
+29 silly addNameRange     '2.11.0',
+29 silly addNameRange     '2.11.1',
+29 silly addNameRange     '2.11.2',
+29 silly addNameRange     '2.11.3',
+29 silly addNameRange     '2.11.4',
+29 silly addNameRange     '2.12.0',
+29 silly addNameRange     '2.14.0',
+29 silly addNameRange     '2.16.0',
+29 silly addNameRange     '2.16.2',
+29 silly addNameRange     '2.16.4',
+29 silly addNameRange     '2.16.6',
+29 silly addNameRange     '2.18.0',
+29 silly addNameRange     '2.19.0',
+29 silly addNameRange     '2.20.0',
+29 silly addNameRange     '2.21.0',
+29 silly addNameRange     '2.22.0',
+29 silly addNameRange     '2.23.0',
+29 silly addNameRange     '2.24.0',
+29 silly addNameRange     '2.25.0',
+29 silly addNameRange     '2.26.0',
+29 silly addNameRange     '2.27.0',
+29 silly addNameRange     '2.28.0',
+29 silly addNameRange     '2.29.0',
+29 silly addNameRange     '2.30.0',
+29 silly addNameRange     '2.31.0',
+29 silly addNameRange     '2.32.0',
+29 silly addNameRange     '2.33.0',
+29 silly addNameRange     '2.34.0',
+29 silly addNameRange     '2.35.0',
+29 silly addNameRange     '2.36.0',
+29 silly addNameRange     '2.37.0',
+29 silly addNameRange     '2.38.0',
+29 silly addNameRange     '2.39.0',
+29 silly addNameRange     '2.40.0',
+29 silly addNameRange     '2.41.0',
+29 silly addNameRange     '2.42.0',
+29 silly addNameRange     '2.43.0',
+29 silly addNameRange     '2.44.0',
+29 silly addNameRange     '2.45.0',
+29 silly addNameRange     '2.46.0',
+29 silly addNameRange     '2.47.0',
+29 silly addNameRange     '2.48.0',
+29 silly addNameRange     '2.49.0',
+29 silly addNameRange     '2.50.0',
+29 silly addNameRange     '2.51.0',
+29 silly addNameRange     '2.52.0',
+29 silly addNameRange     '2.53.0' ] ]
+30 verbose addNamed [ 'request', '2.53.0' ]
+31 verbose addNamed [ '2.53.0', '2.53.0' ]
+32 silly lockFile aee8052e-request-2-53-0 request@2.53.0
+33 verbose lock request@2.53.0 /Users/c0de/.npm/aee8052e-request-2-53-0.lock
+34 silly lockFile ba72365e-s-org-request-request-2-53-0-tgz https://registry.npmjs.org/request/-/request-2.53.0.tgz
+35 verbose lock https://registry.npmjs.org/request/-/request-2.53.0.tgz /Users/c0de/.npm/ba72365e-s-org-request-request-2-53-0-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.53.0.tgz',
+36 verbose addRemoteTarball   '180a3ae92b7b639802e4f9545dd8fcdeb71d760c' ]
+37 info retry fetch attempt 1 at 10:20:00
+38 verbose fetch to= /var/folders/51/mgy65gmx7yl_bm304_pv6yy80000gn/T/npm-36036-f8HkPgZO/registry.npmjs.org/request/-/request-2.53.0.tgz
+39 http GET https://registry.npmjs.org/request/-/request-2.53.0.tgz
+40 http 200 https://registry.npmjs.org/request/-/request-2.53.0.tgz
+41 silly lockFile ba72365e-s-org-request-request-2-53-0-tgz https://registry.npmjs.org/request/-/request-2.53.0.tgz
+42 silly lockFile ba72365e-s-org-request-request-2-53-0-tgz https://registry.npmjs.org/request/-/request-2.53.0.tgz
+43 silly lockFile aee8052e-request-2-53-0 request@2.53.0
+44 silly lockFile aee8052e-request-2-53-0 request@2.53.0
+45 silly lockFile 9d461bcf-request request@
+46 silly lockFile 9d461bcf-request request@
+47 error Error: EACCES, mkdir '/Users/c0de/.npm/request/2.53.0'
+47 error  { [Error: EACCES, mkdir '/Users/c0de/.npm/request/2.53.0']
+47 error   errno: 3,
+47 error   code: 'EACCES',
+47 error   path: '/Users/c0de/.npm/request/2.53.0' }
+48 error Please try running this command again as root/Administrator.
+49 error System Darwin 14.1.0
+50 error command "node" "/usr/local/bin/npm" "install" "request"
+51 error cwd /Users/c0de/Documents/js/learnyounode
+52 error node -v v0.10.36
+53 error npm -v 1.4.28
+54 error path /Users/c0de/.npm/request/2.53.0
+55 error code EACCES
+56 error errno 3
+57 error stack Error: EACCES, mkdir '/Users/c0de/.npm/request/2.53.0'
+58 verbose exit [ 3, true ]
